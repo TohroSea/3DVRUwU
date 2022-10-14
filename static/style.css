@@ -1,0 +1,116 @@
+#top {
+	border: 5px solid #000000;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	user-select: none;
+}
+
+#navbar {
+	overflow: hidden;
+	float: left;
+	font-size: 1.6rem;
+}
+
+#logo {
+	float: left;
+}
+
+.navelem {
+	width: 300px;
+	float: left;
+	text-align: center;
+}
+
+.navelem:not(:first-child):not(:last-child) {
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+}
+
+.navelem:first-child {
+	border-right: 2px solid #000000;
+}
+
+.navelem:last-child {
+	border-left: 2px solid #000000;
+}
+
+#content {
+	border: 5px solid #000000;
+	margin-top: 64px;
+	height: calc(100vh - 349px);
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+body {
+	margin-left: 64px;
+	margin-right: 64px;
+	margin-top: 0px;
+	background-color: #aa80aa;
+}
+
+a {
+	color: #000000;
+	text-decoration: none !important;
+}
+
+.member {
+	border: 2px solid #000000;
+	text-align: center;
+	width: 300px;
+	margin: 32px;
+}
+
+.asiakas {
+	border: 5px solid #000000;
+	height: 500px;
+	width: 1000px;
+	margin: 64px;
+	text-align: center;
+}
+
+li {
+	text-align: left;
+}
+
+#info {
+	height: 500px;
+	width: 3000px;
+	margin: 64px;
+}
+
+#calc {
+	border: 5px solid #000000;
+	height: 500px;
+	width: 1000px;
+	margin: 64px;
+	padding: 8px;
+}
+
+p, li {
+	font-size: 1.4rem;
+}
+
+* {
+	font-family: Arial;
+}
+
+#hinta_a, #hauskuus_a {
+	margin-bottom: 0px;
+	margin-top: 8px;
+}
+
+#hinta, #hauskuus {
+	margin-bottom: 32px;
+}
+
+#unohda {
+	background-color: #aa80aa;
+	border: 2px solid #000000;
+}
+
+#yle {
+	margin-left: 32px;
+}
