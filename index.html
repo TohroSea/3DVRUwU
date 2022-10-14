@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>3D VR UwU</title>
+<link rel="icon" type="image/x-icon" href="static/favicon.ico">
+<link rel="stylesheet" href="static/style.css">
+<script src="static/navbar.js"></script> <!-- Navigointimenun alleviivaus -->
+<script src="static/calc.js"></script> <!-- Laskin -->
+</head>
+<body>
+
+<div id="top">
+	<img src="static/logo.png" alt="3D VR UwU" id="logo"> 
+
+	<div id="navbar">
+		<div id="index" class="navelem">
+			<h1><a href="index.html" draggable="false">3D VR UwU</a></h1>
+		</div>
+		<div id="palvelut" class="navelem">
+			<h1><a href="palvelut.html" draggable="false">Palvelumme</a></h1>
+		</div>
+		<div id="uutiset" class="navelem">
+			<h1><a href="uutiset.html" draggable="false">Uutiset</a></h1>
+		</div>
+		<div id="tiimi" class="navelem">
+			<h1><a href="tiimi.html" draggable="false">Tiimimme</a></h1>
+		</div>
+	</div>
+</div>
+<div id="content">
+	<div id="info">
+		<h1>Me olemme 3D VR UwU!</h1>
+		<p>Meidän yrityksemme luo asiakkaiden toiveiden mukaisia VR-toteutuksia, esimerkiksi esittelytilaisuuksia tai sosiaalisia tapahtumia, valmiiksi olemassa olevia VR-alustoja hyödyntäen.</p>
+		<p>Yritystiimimme omaa vankan pohjatiedon tietotekniikan alalta, VR-tekniikka on kuitenkin suhteellisen uutta kaikille. Tiimimme jäsenillä on vahva into opetella uutta ja kehittyä alallamme sekä yrittäjinä.  </p>
+		<p>Yrityksemme tarjoaa asiakkaille räätälöidyn VR-ympäristöpaketin. Paketti pitää sisällään ympäristön luomisen, ja myös ympäristön käytönaikaisen ylläpidon. Asiakas maksaa ympäristön luonnista urakkahinnan, jonka jälkeen ylläpito veloitetaan päivätilauksena.</p>
+		<p>Kokeile laskea viereisellä laskimella, miten paljon pidempään työntekijäsi ovat sinulla töissä keskimäärin, jos ostat meiltä kyseisen palvelun.</p>
+	</div>
+	<div id="calc">
+		<label for="hinta">Hinta €</label>
+		<p id="hinta_a"></p>
+		<input type="range" id="hinta" min="1000" max="10000"><br>
+		<label for="hauskuus">Tapahtuman hauskuus</label>
+		<p id="hauskuus_a"></p>
+		<input type="range" id="hauskuus" min="1" max="5"><br>
+		<p>Lisävuosia yhteensä</p>
+		<h1 id="vastaus">0</h1>
+		 <button id="unohda">Unohda tulos</button> 
+	</div>
+</div>
+
+</body>
+</html>
